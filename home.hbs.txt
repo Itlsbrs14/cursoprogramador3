@@ -1,0 +1,14 @@
+
+<form name="formation">
+  <h1>Cadastro de Pagamento do Usuário</h1>
+
+  <label for="nome">Nome:</label>
+  <input type="text" id="nomeid" placeholder="Nome" required="required" name="nome" />
+<label for="number">Valor:</label>
+  <input type="tel" id="valorid" placeholder="*******" name="number" />
+   <label for="email">Email:</label>
+    <input type="email" id="emailid" placeholder="email@mail.com" name="email" />
+
+  <input type="submit" class="enviar" onclick="Enviar()" value="Enviar" />
+</form>
+</body>
